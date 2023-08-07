@@ -1,0 +1,47 @@
+.card {
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card .author {
+    color: grey;
+}
+
+.card .price {
+    font-weight: bold;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.add {
+    padding: 10px 30px;
+    background: orange;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: start;
+
+}
+
+.card .content p,
+h5 {
+    margin: 10px 0px;
+    gap: 10px;
+}
